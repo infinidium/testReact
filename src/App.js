@@ -30,7 +30,7 @@ class App extends Component {
   onClick1 = async (event) => {
     event.preventDefault()
     const accounts = await web3.eth.getAccounts()
-    this.setState({message: 'Chakai malko sega da vidq koi biiii'})
+    this.setState({message: 'Chakai malko sega da vidq koi wii'})
     await lottery.methods.pickWinner().send({
       from: accounts[0],
     //  value: web3.utils.toWei(this.state.value, 'ether')
